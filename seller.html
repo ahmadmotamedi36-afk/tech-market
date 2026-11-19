@@ -1,0 +1,1 @@
+{% extends 'catalog/base.html' %}{% block content %}<section class="form-card"><span class="eyebrow">PARTNER WITH US</span><h1>درخواست همکاری فروشندگان</h1><p>اطلاعات فروشگاه را ثبت کن تا برای بررسی با شما تماس گرفته شود.</p><form method="post">{% csrf_token %}{{ form.as_p }}<button class="btn">ثبت درخواست</button></form></section>{% endblock %}
